@@ -1,0 +1,10 @@
+version: 3
+service:
+  cont1:
+    image: tomee
+    ports:
+      - 6666:8080
+  cont2:
+    image: jenkins/jenkins
+    ports:
+      - 3333:8080
